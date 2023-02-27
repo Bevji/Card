@@ -147,11 +147,11 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--bg-gradient-jet);
-  color: var(--smoky-black);
+  background: var(--bg-gradient-yellow-2);
+  color: var(--bg-gradient-yellow-2);
 }
 
-:focus { outline-color: var(--bg-gradient-jet); }
+:focus { outline-color: var(--bg-gradient-yellow-2); }
 
 html { font-family: var(--ff-poppins); }
 
@@ -184,7 +184,7 @@ article {
 
 .icon-box {
   position: relative;
-  background: var(--border-gradient-onyx);
+  background: var(--bg-gradient-yellow-2);
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -251,7 +251,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--bg-gradient-jet);
+  background: var(--bg-gradient-yellow-2);
   border-radius: 3px;
 }
 
