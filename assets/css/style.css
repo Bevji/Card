@@ -783,6 +783,7 @@ main {
   align-items: center;
   gap: 15px;
   margin-bottom: 25px;
+  color: var(--text-gradient-yellow);
 }
 
 .timeline-list {
