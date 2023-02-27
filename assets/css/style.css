@@ -35,8 +35,8 @@
 
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(293, 93%, 50%) 0%, 
-    hsla(335, 81%, 61%, 0.933) 50%
+    hsl(285, 87%, 57%) 100%, 
+    hsla(218, 90%, 55%) 100%
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
