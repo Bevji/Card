@@ -1,17 +1,4 @@
 /*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-
-/**
- * copyright 2022 @codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
 
@@ -43,15 +30,18 @@
     hsla(45, 100%, 71%, 0.251) 0%, 
     hsla(35, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
+
+   /* // use to change the box color  */
+
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
-    hsl(0, 0%, 25%) 0%, 
-    hsla(0, 0%, 25%, 0) 50%
+    hsl(293, 93%, 50%) 0%, 
+    hsla(335, 81%, 61%, 0.933) 50%
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hwb(175 18% 7%), 
+    hwb(175 18% 7%)
   );
 
   /* solid */
@@ -60,10 +50,10 @@
   --onyx: hsl(240, 1%, 17%);
   --eerie-black-1: hsl(240, 2%, 13%);
   --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
+  --smoky-black: hsl(0, 5%, 15%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: hsl(178, 94%, 56%);
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
@@ -147,15 +137,15 @@ input, textarea {
 }
 
 ::selection {
-  background: var(--bg-gradient-onyx);
-  color: var(--bg-gradient-onyx);
+  background: var(--orange-yellow-crayola);
+  color: var(--smoky-black);
 }
 
-:focus { outline-color: var(--bg-gradient-yellow-2); }
+:focus { outline-color: var(--orange-yellow-crayola); }
 
 html { font-family: var(--ff-poppins); }
 
-body { background: var(--bg-gradient-onyx); }
+body { background: var(--smoky-black); }
 
 
 
@@ -184,7 +174,7 @@ article {
 
 .icon-box {
   position: relative;
-  background: var(--bg-gradient-onyx);
+  background: var(--border-gradient-onyx);
   width: 30px;
   height: 30px;
   border-radius: 8px;
@@ -192,7 +182,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--bg-gradient-onyx);
+  color: var(--orange-yellow-crayola);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -251,7 +241,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--bg-gradient-onyx);
+  background: var(--text-gradient-yellow);
   border-radius: 3px;
 }
 
@@ -266,7 +256,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--bg-gradient-onyx);
+  background: var(--orange-yellow-crayola);
   border-radius: 5px;
 }
 
@@ -287,7 +277,7 @@ article.active {
   content: "";
   position: absolute;
   inset: 1px;
-  background: var(--bg-gradient-onyx);
+  background: var(--bg-gradient-jet);
   border-radius: inherit;
   z-index: -1;
 }
